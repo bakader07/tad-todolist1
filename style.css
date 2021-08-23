@@ -1,0 +1,83 @@
+body {
+    font-size: larger;
+    margin: 0;
+    background: #c0d6df;
+}
+
+main {
+    margin: 10vh auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    line-height: 30px;
+    width: 350px;
+    margin: 20px auto;/*calc((100% - 350px)/2)*/;
+    box-shadow: 0 0 10px #9966cc;
+    padding: 10px 0;
+    /*border: 1px solid rgba(50, 50, 50/ 0.3);*/
+}
+
+span {
+    display: inline-block;
+    margin: 0 5px;
+    border: solid 2px #999;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+#title {
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    background: #9966cc;
+}
+
+#container {
+    font-weight: 500;
+    color: #999;
+    background: rgb(240, 240, 240);
+    padding-bottom: 25px;
+}
+
+#add {
+    margin: 0 calc(50% - 75px);
+    border-radius: 20px;
+    box-shadow: 0 2px 5px #9966cc;
+    width: 150px;
+    height: 40px;
+    background: #9966cc;
+    color: white;
+    font-weight: 700;
+    position: relative;
+    bottom: 40px;
+}
+
+#text {
+    margin: 10px calc(50% - 100px);
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    text-indent: 10px;
+    color: #999;
+}
+
+.adding-task {
+    padding: 0;
+    line-height: 30px;
+    display: inline-block;
+    border-width: 0;
+    box-shadow: 0 0px 3px #9966cc;
+}
+
+.adding-task:focus {
+    outline-width: 0;
+}
+
+.task {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 10px 30px;
+}
